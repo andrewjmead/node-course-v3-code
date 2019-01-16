@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "env-cmd ./config/dev.env nodemon src/index.js",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "",
